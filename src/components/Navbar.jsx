@@ -136,15 +136,6 @@ const Navbar = () => {
             ))}
           </Box>
 
-          <Box>
-            <input
-              className="inp-search"
-              type="search"
-              label="Search"
-              placeholder="Search"
-            />
-          </Box>
-
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
